@@ -1,0 +1,398 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+.wrap{
+	width: 1002px;
+	margin: 0 auto;
+}
+
+.header{
+	margin-top: 50px;
+	margin-bottom: 65px;
+	font-family: 'Microsoft JhengHei', arial;
+}
+
+.community{
+	height: 30px;
+	background: #f6f6f6;
+}
+
+.community ul{
+	float: right;
+}
+
+.community ul li{
+	float: left;
+	margin: 5px;
+}
+
+.community li a{
+	text-decoration: none;
+	font-size: 16px;
+}
+
+.community li a:hover{
+	color: red;
+}
+
+.community li img{
+	float: left;
+	margin-right: 5px;
+}
+
+.community li span{
+	float: left;
+}
+
+.facebook a{
+	color: #4460a0;
+	border-right: 2px solid #cccccc;
+	padding-right: 8px;
+}
+
+.twitter a{
+	color: #00aaec;
+}
+
+.header-logo{
+	float: left;
+	margin-left: 10px;
+	margin-top: 12px;
+}
+
+.header-logo h1 a{
+	background-image: url(../img/footer-logo.png);
+	width: 170px;
+	height: 36px;
+	display: block;
+	text-indent: 101%;
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+.header-logo h1 a:hover{
+	background-image: url(../img/header-logo.png);
+}
+
+.menu{
+	float: right;
+}
+
+.menu ul li{
+	float: left;
+}
+
+.menu li a{
+	text-decoration: none;
+	text-align: center;
+	line-height: 60px;
+	display: block;
+	width: 110px;
+	color: #00cc99;
+}
+
+.menu li a:hover{
+	border-bottom: 5px solid #00cc99;
+	color: red;
+}
+
+.banner{
+	background: url(../img/banner.jpg) ;
+	width: 100%;
+	height: 346px;
+	position: relative;
+	margin-bottom: 60px;
+}
+
+.quote{
+	position: absolute;
+	height: 170px;
+	width: 100%;
+	background: rgba(0, 0, 0, 0.2);
+	top: 88px;
+}
+
+.quote p{
+	color: white;
+	font-size: 36px;
+	font-family: 'Microsoft JhengHei', arial;
+	line-height: 1.3;
+	margin-top: 36px;
+	margin-left: 5px;
+}
+
+.introduction{
+	height: 350px;
+	margin-bottom: 60px;
+}
+
+.introduction ul li{
+	width: 300px;
+	height: 325px;
+	border: 1px solid #f1f1f1;
+	box-shadow: 5px 5px 5px #dbdbdb;
+	-webkit-box-shadow: 5px 5px 5px #dbdbdb;
+	float: left;
+	margin: 16px;
+	position: relative;
+	text-align: center;
+	font-family: 'Microsoft JhengHei', arial;
+}
+
+.introduction li h2{
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.introduction li span{
+	position: absolute;
+	display: block;
+	bottom: 10px;
+	line-height: 1.3;
+	padding: 12px;
+	text-align: justify;
+}
+
+.signal1{
+	margin: 20px 89.5px;
+}
+
+.signal2{
+	margin: 47.5px 39.5px;
+}
+
+.signal3{
+	margin: 29px 93px;
+}
+
+
+
+#jQuery li{
+	list-style: disc;
+	height: initial;
+	width: initial;
+	border: initial;
+	margin: initial;
+	float: initial;
+	box-shadow: initial;
+	margin-left: 30px;
+	text-align: left;
+}
+
+#jQuery li:nth-child(1){
+	list-style: none;
+	text-indent: -32px;
+}
+
+.comparison{
+	margin-bottom: 60px;
+	font-family: 'Microsoft JhengHei', arial; 
+}
+
+.comparison table{
+	width: 800px;
+	margin-left: 101px;
+}
+
+.comparison caption{
+	font-size: 20px;
+	font-weight: bold;
+	padding: 20px;
+}
+
+.comparison th, .comparison td{
+	border-top: 1px solid #dddddd;
+	border-bottom: 1px solid #dddddd;
+	
+}
+
+.comparison th{
+	background: #f7f7f7;
+	text-align: left;
+	padding: 10px;
+	font-weight: bold;
+}
+
+.comparison td{
+	padding: 10px;
+}
+
+.comparison table span{
+	color: #00a67d;
+}
+
+.information{
+	height: 405px;
+	background: url(../img/bgpiece.png) repeat-x;
+	margin-bottom: 30px;
+	text-align: center;
+	color: white;
+	font-family: 'Microsoft JhengHei', arial;
+}
+
+.information p{
+	font-size: 24px;
+	padding: 30px;
+	line-height: 1.5;
+}
+
+.information .opinion{
+	float: left;
+	margin-left: 20px;
+}
+
+.information .opinion textarea{
+	border-radius: 5px;
+}
+
+.information .opinion textarea:focus{
+	box-shadow: inset 0px -5px 30px blue;
+	-webkit-box-shadow: inset 0px -5px 30px blue;
+}
+	
+.information .customer{
+	float: right;
+	text-align: left;
+	font-size: 16px;
+	margin-right: 20px;
+	line-height: 1.5;
+}
+
+.information .data{
+	margin-bottom: 12px;
+	height: 24px;
+	border-radius: 5px;
+}
+
+.information .data:focus{
+	box-shadow: inset 0px -5px 20px pink;
+	-webkit-box-shadow: inset 0px -5px 20px pink;
+}
+
+.information .submit{
+	float: right;
+	border-radius: 5px;
+	margin-top: 4px;
+	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    background: #00cc99;
+    border: none;
+    color: white;
+    padding: 8px 24px; 
+    cursor: pointer;
+}
+
+.information .submit:hover{
+	background: red;
+}
+
+.information .submit:active{
+	background: red;
+	box-shadow: inset 2px 2px 10px black;
+	-webkit-box-shadow: inset 2px 2px 10px black;
+}
+
+.footer{
+	height: 70px;
+	margin-bottom: 20px;
+	font-family: 'Microsoft JhengHei', arial;
+}
+
+.footer-logo{
+	float: left;
+	margin-left: 10px;
+	
+}
+
+.footer-logo h1 a{
+	background-image: url(../img/footer-logo.png);
+	width: 170px;
+	height: 36px;
+	display: block;
+	text-indent: 101%;
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+.footer-logo h1 a:hover{
+	background-image: url(../img/header-logo.png);
+}
+
+.contact{
+	float: right;
+	line-height: 1.5;
+}
+
+.contact span{
+	color: red;
+}
+
+.rocket{
+	position: fixed;
+	height: 100px;
+	width: 100px;
+	right: 20px;
+	bottom: 20px;
+	border-radius: 50px;
+	background: rgba(0, 204, 153, 0.1); 
+    background: -webkit-linear-gradient(left top, rgba(0, 204, 153, 0.1), #00644c); 
+    background: -o-linear-gradient(bottom right, rgba(0, 204, 153, 0.1), #00644c); 
+    background: -moz-linear-gradient(bottom right, rgba(0, 204, 153, 0.1), #00644c); 
+    background: linear-gradient(to bottom right, rgba(0, 204, 153, 0.1), #00644c);
+    box-shadow: 4px 4px 5px gray; 
+    -webkit-box-shadow: 4px 4px 5px gray;
+}
+
+.rocket a{
+	display: block;
+	text-decoration: none;
+	font-family: 'Microsoft JhengHei', arial;
+	line-height: 100px;
+	text-align: center;
+	color: white;
+}
+
+.rocket a:hover{
+	color: blue;
+}
